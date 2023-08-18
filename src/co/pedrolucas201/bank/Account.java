@@ -42,6 +42,10 @@ public class Account {
         return true;
     }
 
+    public double getBalance(){
+        return balance;
+    }
+
     @Override
     public String toString() {
         String result = "A conta de: " + this.name + " | Ag: " + this.ag + " | CC: " + this.cc + " | tem o extrado final de: " + balance;
