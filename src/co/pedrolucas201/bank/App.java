@@ -10,7 +10,7 @@ public class App {
         Bank santander = new Bank("0001");
 
         while (true){
-            System.out.println("O que deseja fazer? (C) = Cria Conta | (E) = Sair ");
+            System.out.println("O que deseja fazer? (C) = Cria Conta | (E) = Sair do Banco");
             String op = scanner.nextLine();
 
             if (op.equals("C")){
